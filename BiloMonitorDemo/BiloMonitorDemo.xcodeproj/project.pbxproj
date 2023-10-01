@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B51A0A6A2AC9F80F00E95CC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51A0A692AC9F80F00E95CC7 /* AppDelegate.swift */; };
+		B51A0A6C2AC9F80F00E95CC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51A0A6B2AC9F80F00E95CC7 /* SceneDelegate.swift */; };
+		B51A0A6E2AC9F80F00E95CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51A0A6D2AC9F80F00E95CC7 /* ViewController.swift */; };
+		B51A0A712AC9F80F00E95CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51A0A6F2AC9F80F00E95CC7 /* Main.storyboard */; };
+		B51A0A732AC9F81000E95CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51A0A722AC9F81000E95CC7 /* Assets.xcassets */; };
+		B51A0A762AC9F81000E95CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51A0A742AC9F81000E95CC7 /* LaunchScreen.storyboard */; };
+		B51A0A812AC9F81000E95CC7 /* BiloMonitorDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51A0A802AC9F81000E95CC7 /* BiloMonitorDemoTests.swift */; };
+		B51A0A8B2AC9F81000E95CC7 /* BiloMonitorDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51A0A8A2AC9F81000E95CC7 /* BiloMonitorDemoUITests.swift */; };
+		B51A0A8D2AC9F81000E95CC7 /* BiloMonitorDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51A0A8C2AC9F81000E95CC7 /* BiloMonitorDemoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B51A0A7D2AC9F81000E95CC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B51A0A5E2AC9F80F00E95CC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51A0A652AC9F80F00E95CC7;
+			remoteInfo = BiloMonitorDemo;
+		};
+		B51A0A872AC9F81000E95CC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B51A0A5E2AC9F80F00E95CC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51A0A652AC9F80F00E95CC7;
+			remoteInfo = BiloMonitorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B51A0A662AC9F80F00E95CC7 /* BiloMonitorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiloMonitorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51A0A692AC9F80F00E95CC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B51A0A6B2AC9F80F00E95CC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B51A0A6D2AC9F80F00E95CC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B51A0A702AC9F80F00E95CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B51A0A722AC9F81000E95CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B51A0A752AC9F81000E95CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B51A0A772AC9F81000E95CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51A0A7C2AC9F81000E95CC7 /* BiloMonitorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiloMonitorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51A0A802AC9F81000E95CC7 /* BiloMonitorDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiloMonitorDemoTests.swift; sourceTree = "<group>"; };
+		B51A0A862AC9F81000E95CC7 /* BiloMonitorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiloMonitorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51A0A8A2AC9F81000E95CC7 /* BiloMonitorDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiloMonitorDemoUITests.swift; sourceTree = "<group>"; };
+		B51A0A8C2AC9F81000E95CC7 /* BiloMonitorDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiloMonitorDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B51A0A632AC9F80F00E95CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51A0A792AC9F81000E95CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51A0A832AC9F81000E95CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B51A0A5D2AC9F80F00E95CC7 = {
+			isa = PBXGroup;
+			children = (
+				B51A0A682AC9F80F00E95CC7 /* BiloMonitorDemo */,
+				B51A0A7F2AC9F81000E95CC7 /* BiloMonitorDemoTests */,
+				B51A0A892AC9F81000E95CC7 /* BiloMonitorDemoUITests */,
+				B51A0A672AC9F80F00E95CC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B51A0A672AC9F80F00E95CC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B51A0A662AC9F80F00E95CC7 /* BiloMonitorDemo.app */,
+				B51A0A7C2AC9F81000E95CC7 /* BiloMonitorDemoTests.xctest */,
+				B51A0A862AC9F81000E95CC7 /* BiloMonitorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B51A0A682AC9F80F00E95CC7 /* BiloMonitorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B51A0A692AC9F80F00E95CC7 /* AppDelegate.swift */,
+				B51A0A6B2AC9F80F00E95CC7 /* SceneDelegate.swift */,
+				B51A0A6D2AC9F80F00E95CC7 /* ViewController.swift */,
+				B51A0A6F2AC9F80F00E95CC7 /* Main.storyboard */,
+				B51A0A722AC9F81000E95CC7 /* Assets.xcassets */,
+				B51A0A742AC9F81000E95CC7 /* LaunchScreen.storyboard */,
+				B51A0A772AC9F81000E95CC7 /* Info.plist */,
+			);
+			path = BiloMonitorDemo;
+			sourceTree = "<group>";
+		};
+		B51A0A7F2AC9F81000E95CC7 /* BiloMonitorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B51A0A802AC9F81000E95CC7 /* BiloMonitorDemoTests.swift */,
+			);
+			path = BiloMonitorDemoTests;
+			sourceTree = "<group>";
+		};
+		B51A0A892AC9F81000E95CC7 /* BiloMonitorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B51A0A8A2AC9F81000E95CC7 /* BiloMonitorDemoUITests.swift */,
+				B51A0A8C2AC9F81000E95CC7 /* BiloMonitorDemoUITestsLaunchTests.swift */,
+			);
+			path = BiloMonitorDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B51A0A652AC9F80F00E95CC7 /* BiloMonitorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51A0A902AC9F81000E95CC7 /* Build configuration list for PBXNativeTarget "BiloMonitorDemo" */;
+			buildPhases = (
+				B51A0A622AC9F80F00E95CC7 /* Sources */,
+				B51A0A632AC9F80F00E95CC7 /* Frameworks */,
+				B51A0A642AC9F80F00E95CC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiloMonitorDemo;
+			productName = BiloMonitorDemo;
+			productReference = B51A0A662AC9F80F00E95CC7 /* BiloMonitorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B51A0A7B2AC9F81000E95CC7 /* BiloMonitorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51A0A932AC9F81000E95CC7 /* Build configuration list for PBXNativeTarget "BiloMonitorDemoTests" */;
+			buildPhases = (
+				B51A0A782AC9F81000E95CC7 /* Sources */,
+				B51A0A792AC9F81000E95CC7 /* Frameworks */,
+				B51A0A7A2AC9F81000E95CC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51A0A7E2AC9F81000E95CC7 /* PBXTargetDependency */,
+			);
+			name = BiloMonitorDemoTests;
+			productName = BiloMonitorDemoTests;
+			productReference = B51A0A7C2AC9F81000E95CC7 /* BiloMonitorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B51A0A852AC9F81000E95CC7 /* BiloMonitorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51A0A962AC9F81000E95CC7 /* Build configuration list for PBXNativeTarget "BiloMonitorDemoUITests" */;
+			buildPhases = (
+				B51A0A822AC9F81000E95CC7 /* Sources */,
+				B51A0A832AC9F81000E95CC7 /* Frameworks */,
+				B51A0A842AC9F81000E95CC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51A0A882AC9F81000E95CC7 /* PBXTargetDependency */,
+			);
+			name = BiloMonitorDemoUITests;
+			productName = BiloMonitorDemoUITests;
+			productReference = B51A0A862AC9F81000E95CC7 /* BiloMonitorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B51A0A5E2AC9F80F00E95CC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B51A0A652AC9F80F00E95CC7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					B51A0A7B2AC9F81000E95CC7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B51A0A652AC9F80F00E95CC7;
+					};
+					B51A0A852AC9F81000E95CC7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B51A0A652AC9F80F00E95CC7;
+					};
+				};
+			};
+			buildConfigurationList = B51A0A612AC9F80F00E95CC7 /* Build configuration list for PBXProject "BiloMonitorDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B51A0A5D2AC9F80F00E95CC7;
+			productRefGroup = B51A0A672AC9F80F00E95CC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B51A0A652AC9F80F00E95CC7 /* BiloMonitorDemo */,
+				B51A0A7B2AC9F81000E95CC7 /* BiloMonitorDemoTests */,
+				B51A0A852AC9F81000E95CC7 /* BiloMonitorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B51A0A642AC9F80F00E95CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51A0A762AC9F81000E95CC7 /* LaunchScreen.storyboard in Resources */,
+				B51A0A732AC9F81000E95CC7 /* Assets.xcassets in Resources */,
+				B51A0A712AC9F80F00E95CC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51A0A7A2AC9F81000E95CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51A0A842AC9F81000E95CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B51A0A622AC9F80F00E95CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51A0A6E2AC9F80F00E95CC7 /* ViewController.swift in Sources */,
+				B51A0A6A2AC9F80F00E95CC7 /* AppDelegate.swift in Sources */,
+				B51A0A6C2AC9F80F00E95CC7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51A0A782AC9F81000E95CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51A0A812AC9F81000E95CC7 /* BiloMonitorDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51A0A822AC9F81000E95CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51A0A8D2AC9F81000E95CC7 /* BiloMonitorDemoUITestsLaunchTests.swift in Sources */,
+				B51A0A8B2AC9F81000E95CC7 /* BiloMonitorDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B51A0A7E2AC9F81000E95CC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B51A0A652AC9F80F00E95CC7 /* BiloMonitorDemo */;
+			targetProxy = B51A0A7D2AC9F81000E95CC7 /* PBXContainerItemProxy */;
+		};
+		B51A0A882AC9F81000E95CC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B51A0A652AC9F80F00E95CC7 /* BiloMonitorDemo */;
+			targetProxy = B51A0A872AC9F81000E95CC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B51A0A6F2AC9F80F00E95CC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51A0A702AC9F80F00E95CC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B51A0A742AC9F81000E95CC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51A0A752AC9F81000E95CC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B51A0A8E2AC9F81000E95CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B51A0A8F2AC9F81000E95CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B51A0A912AC9F81000E95CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BiloMonitorDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilaldurnagol.BiloMonitorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B51A0A922AC9F81000E95CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BiloMonitorDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilaldurnagol.BiloMonitorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B51A0A942AC9F81000E95CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilaldurnagol.BiloMonitorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiloMonitorDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BiloMonitorDemo";
+			};
+			name = Debug;
+		};
+		B51A0A952AC9F81000E95CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilaldurnagol.BiloMonitorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiloMonitorDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BiloMonitorDemo";
+			};
+			name = Release;
+		};
+		B51A0A972AC9F81000E95CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilaldurnagol.BiloMonitorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BiloMonitorDemo;
+			};
+			name = Debug;
+		};
+		B51A0A982AC9F81000E95CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bilaldurnagol.BiloMonitorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BiloMonitorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B51A0A612AC9F80F00E95CC7 /* Build configuration list for PBXProject "BiloMonitorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51A0A8E2AC9F81000E95CC7 /* Debug */,
+				B51A0A8F2AC9F81000E95CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51A0A902AC9F81000E95CC7 /* Build configuration list for PBXNativeTarget "BiloMonitorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51A0A912AC9F81000E95CC7 /* Debug */,
+				B51A0A922AC9F81000E95CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51A0A932AC9F81000E95CC7 /* Build configuration list for PBXNativeTarget "BiloMonitorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51A0A942AC9F81000E95CC7 /* Debug */,
+				B51A0A952AC9F81000E95CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51A0A962AC9F81000E95CC7 /* Build configuration list for PBXNativeTarget "BiloMonitorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51A0A972AC9F81000E95CC7 /* Debug */,
+				B51A0A982AC9F81000E95CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B51A0A5E2AC9F80F00E95CC7 /* Project object */;
+}
