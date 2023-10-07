@@ -4,4 +4,7 @@
    <FileRef
       location = "group:BiloMonitorDemo/BiloMonitorDemo.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:BiloMonitor/BiloMonitor.xcodeproj">
+   </FileRef>
 </Workspace>

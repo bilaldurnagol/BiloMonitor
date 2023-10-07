@@ -16,6 +16,8 @@
 		B51A0A812AC9F81000E95CC7 /* BiloMonitorDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51A0A802AC9F81000E95CC7 /* BiloMonitorDemoTests.swift */; };
 		B51A0A8B2AC9F81000E95CC7 /* BiloMonitorDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51A0A8A2AC9F81000E95CC7 /* BiloMonitorDemoUITests.swift */; };
 		B51A0A8D2AC9F81000E95CC7 /* BiloMonitorDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51A0A8C2AC9F81000E95CC7 /* BiloMonitorDemoUITestsLaunchTests.swift */; };
+		B58E45042AD1981600EE8E5D /* BiloMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58E45032AD1981600EE8E5D /* BiloMonitor.framework */; };
+		B58E45052AD1981600EE8E5D /* BiloMonitor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58E45032AD1981600EE8E5D /* BiloMonitor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B58E45062AD1981600EE8E5D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B58E45052AD1981600EE8E5D /* BiloMonitor.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		B51A0A662AC9F80F00E95CC7 /* BiloMonitorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiloMonitorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51A0A692AC9F80F00E95CC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,7 @@
 		B51A0A862AC9F81000E95CC7 /* BiloMonitorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiloMonitorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51A0A8A2AC9F81000E95CC7 /* BiloMonitorDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiloMonitorDemoUITests.swift; sourceTree = "<group>"; };
 		B51A0A8C2AC9F81000E95CC7 /* BiloMonitorDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiloMonitorDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B58E45032AD1981600EE8E5D /* BiloMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BiloMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58E45042AD1981600EE8E5D /* BiloMonitor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +101,7 @@
 				B51A0A7F2AC9F81000E95CC7 /* BiloMonitorDemoTests */,
 				B51A0A892AC9F81000E95CC7 /* BiloMonitorDemoUITests */,
 				B51A0A672AC9F80F00E95CC7 /* Products */,
+				B58E45022AD1981600EE8E5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +146,14 @@
 			path = BiloMonitorDemoUITests;
 			sourceTree = "<group>";
 		};
+		B58E45022AD1981600EE8E5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B58E45032AD1981600EE8E5D /* BiloMonitor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +164,7 @@
 				B51A0A622AC9F80F00E95CC7 /* Sources */,
 				B51A0A632AC9F80F00E95CC7 /* Frameworks */,
 				B51A0A642AC9F80F00E95CC7 /* Resources */,
+				B58E45062AD1981600EE8E5D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -453,7 +481,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bilaldurnagol.BiloMonitorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -480,7 +508,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bilaldurnagol.BiloMonitorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
