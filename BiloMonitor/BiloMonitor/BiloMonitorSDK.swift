@@ -12,9 +12,10 @@ public final class BiloMonitorSDK {
     
     // MARK: - PROPERTIES
     
-    public static let shared = BiloMonitorSDK()
-    
+    private(set) var isEnable: Bool = false
     private(set) var didShowMonitoring = Observable<Bool>()
+    
+    public static let shared = BiloMonitorSDK()
     
     fileprivate var presentingViewController: UIViewController? {
         var rootViewController = UIWindow.keyWindow?.rootViewController
@@ -31,22 +32,32 @@ public final class BiloMonitorSDK {
     // MARK: - METHOD(s)
     
     /// Setup of Bilo Monitor SDK
-    public func configuration() {
+    public func configuration(_ isListen: Bool = true) {
+        guard isListen else {
+            stopListener()
+            isEnable = false
+            return
+        }
+        startListener()
+        isEnable = true
+        
         didShowMonitoring.bind {[weak self] _ in
             self?.showMonitor(with: self?.presentingViewController)
         }
+        
+     
     }
 }
 
 // MARK: - PRIVATE METHOD(s)
 
-extension BiloMonitorSDK {
+private extension BiloMonitorSDK {
 
     /// show to network monitoring view
     /// if is there navigation controller, it use push
     /// if is'n't there navigation controller, if use present
     /// - Parameter rootViewController: root of  last viewcontroller
-    private func showMonitor(with rootViewController: UIViewController?) {
+    func showMonitor(with rootViewController: UIViewController?) {
         let vc = MonitorViewController()
         vc.viewModel = DefaultMonitorViewModel()
         
@@ -57,6 +68,15 @@ extension BiloMonitorSDK {
             rootViewController?.present(navigationController, animated: true, completion: nil)
         }
     }
+    
+    func startListener() {
+        URLProtocol.registerClass(ListenNetworkProtocol.self)
+    }
+    
+    func stopListener() {
+        URLProtocol.unregisterClass(ListenNetworkProtocol.self)
+    }
+    
 }
 
 // MARK: - PUBLIC METHOD(s)

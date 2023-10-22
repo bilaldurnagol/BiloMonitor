@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B57442212AE414A0004CEA68 /* UnknownCaseRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57442202AE414A0004CEA68 /* UnknownCaseRepresentable.swift */; };
+		B57442232AE4179D004CEA68 /* AppFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57442222AE4179D004CEA68 /* AppFormatters.swift */; };
 		B58E44ED2AD197F300EE8E5D /* BiloMonitor.docc in Sources */ = {isa = PBXBuildFile; fileRef = B58E44EC2AD197F300EE8E5D /* BiloMonitor.docc */; };
 		B58E44F32AD197F300EE8E5D /* BiloMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58E44E82AD197F300EE8E5D /* BiloMonitor.framework */; };
 		B58E44F82AD197F300EE8E5D /* BiloMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58E44F72AD197F300EE8E5D /* BiloMonitorTests.swift */; };
@@ -18,6 +20,9 @@
 		B58E451D2AD1A2C600EE8E5D /* MonitorDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58E451C2AD1A2C600EE8E5D /* MonitorDetailsViewController.swift */; };
 		B58E451F2AD1A4D800EE8E5D /* MonitorDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58E451E2AD1A4D800EE8E5D /* MonitorDetailsViewModel.swift */; };
 		B58E45242AD1AD7A00EE8E5D /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58E45232AD1AD7A00EE8E5D /* Observable.swift */; };
+		B5A041072AD1F03D0019A0C1 /* ListenNetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A041062AD1F03D0019A0C1 /* ListenNetworkProtocol.swift */; };
+		B5A041092AD1FC870019A0C1 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A041082AD1FC870019A0C1 /* Constans.swift */; };
+		B5AF6D872AD489550083AE0F /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AF6D862AD489550083AE0F /* RequestModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B57442202AE414A0004CEA68 /* UnknownCaseRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownCaseRepresentable.swift; sourceTree = "<group>"; };
+		B57442222AE4179D004CEA68 /* AppFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFormatters.swift; sourceTree = "<group>"; };
 		B58E44E82AD197F300EE8E5D /* BiloMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BiloMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58E44EB2AD197F300EE8E5D /* BiloMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BiloMonitor.h; sourceTree = "<group>"; };
 		B58E44EC2AD197F300EE8E5D /* BiloMonitor.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = BiloMonitor.docc; sourceTree = "<group>"; };
@@ -43,6 +50,9 @@
 		B58E451C2AD1A2C600EE8E5D /* MonitorDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorDetailsViewController.swift; sourceTree = "<group>"; };
 		B58E451E2AD1A4D800EE8E5D /* MonitorDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorDetailsViewModel.swift; sourceTree = "<group>"; };
 		B58E45232AD1AD7A00EE8E5D /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		B5A041062AD1F03D0019A0C1 /* ListenNetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenNetworkProtocol.swift; sourceTree = "<group>"; };
+		B5A041082AD1FC870019A0C1 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		B5AF6D862AD489550083AE0F /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,7 @@
 		B58E44EA2AD197F300EE8E5D /* BiloMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				B5AF6D852AD489080083AE0F /* Models */,
 				B58E45112AD1996C00EE8E5D /* Extensitons */,
 				B58E45102AD1996100EE8E5D /* Utils */,
 				B58E450F2AD1995B00EE8E5D /* Core */,
@@ -125,6 +136,8 @@
 		B58E450F2AD1995B00EE8E5D /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				B5A041062AD1F03D0019A0C1 /* ListenNetworkProtocol.swift */,
+				B5A041082AD1FC870019A0C1 /* Constans.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -133,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				B58E45232AD1AD7A00EE8E5D /* Observable.swift */,
+				B57442202AE414A0004CEA68 /* UnknownCaseRepresentable.swift */,
+				B57442222AE4179D004CEA68 /* AppFormatters.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -152,6 +167,14 @@
 				B58E451E2AD1A4D800EE8E5D /* MonitorDetailsViewModel.swift */,
 			);
 			path = MonitorDetails;
+			sourceTree = "<group>";
+		};
+		B5AF6D852AD489080083AE0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5AF6D862AD489550083AE0F /* RequestModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,10 +287,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B58E45242AD1AD7A00EE8E5D /* Observable.swift in Sources */,
+				B57442212AE414A0004CEA68 /* UnknownCaseRepresentable.swift in Sources */,
 				B58E451D2AD1A2C600EE8E5D /* MonitorDetailsViewController.swift in Sources */,
+				B57442232AE4179D004CEA68 /* AppFormatters.swift in Sources */,
+				B5A041092AD1FC870019A0C1 /* Constans.swift in Sources */,
 				B58E451F2AD1A4D800EE8E5D /* MonitorDetailsViewModel.swift in Sources */,
 				B58E44ED2AD197F300EE8E5D /* BiloMonitor.docc in Sources */,
+				B5A041072AD1F03D0019A0C1 /* ListenNetworkProtocol.swift in Sources */,
 				B58E45132AD199A400EE8E5D /* MonitorViewModel.swift in Sources */,
+				B5AF6D872AD489550083AE0F /* RequestModel.swift in Sources */,
 				B58E45082AD1984200EE8E5D /* BiloMonitorSDK.swift in Sources */,
 				B58E451A2AD1A27800EE8E5D /* MonitorViewController.swift in Sources */,
 				B58E45152AD19D1A00EE8E5D /* UIWindow+.swift in Sources */,
